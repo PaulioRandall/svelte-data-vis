@@ -1,0 +1,35 @@
+{
+	"name": "template-sveltekit",
+	"version": "0.1.0",
+	"type": "module",
+	"license": "MIT",
+	"engines": {
+		"node": ">=14.0.0 <15.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PaulioRandall/sveltekit-template.git"
+	},
+	"scripts": {
+		"fmt": "npx prettier --write --plugin-search-dir=. .",
+		"predev": "npm run fmt",
+		"dev": "svelte-kit dev",
+		"prebuild": "npm run fmt && ./scripts/build-env.sh",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "npm run build && svelte-kit preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "10.4.2",
+		"postcss": "8.4.7",
+		"prettier": "2.5.1",
+		"prettier-plugin-svelte": "2.6.0",
+		"svelte": "3.46.4",
+		"tailwindcss": "3.0.23"
+	},
+	"dependencies": {
+		"svelte-kit": "1.0.0"
+	}
+}

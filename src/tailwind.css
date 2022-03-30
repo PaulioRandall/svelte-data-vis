@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.global-class-example {
+		@apply mt-4 mb-2 text-justify;
+	}
+}
