@@ -8,7 +8,6 @@
 	<nav class="nav-links">
 		<NavLink scroll="top">{@html upTriangle}</NavLink>
 		<NavLink href="/">Home</NavLink>
-		<NavLink href="/tutorial">Tutorial</NavLink>
 	</nav>
 	<div class="base-nav-link-text pb-2">© 2022 Bloody Stupid Johnson</div>
 </footer>

@@ -14,7 +14,7 @@
 	}
 
 	const newSegment = (path) => {
-		let text = 'Sveltekit Template'
+		let text = 'Home'
 		if (path != '/') {
 			text = path.slice(1, path.length)
 		}
